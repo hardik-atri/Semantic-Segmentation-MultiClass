@@ -11,7 +11,7 @@ This project focuses on semantic segmentation using a U-net model with the ResNe
 ## Preprocessing
 1. Load the images and masks from the dataset.
 2. Store the paths of the images and masks in a data frame.
-3. Perform preprocessing ( resize to 256 * 256 ) on the images and masks.
+3. Perform preprocessing ( read and resize to 256 * 256 ) on the images and masks.
 4. Find all the unique classes in the masked image ( different int values ) and replace them with continues series starting from 0.
 
 ## Data Normalization
