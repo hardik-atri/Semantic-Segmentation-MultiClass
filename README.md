@@ -1,4 +1,8 @@
 # Semantic Segmentation Project
+
+## Objective
+The objective of this project is to develop a semantic segmentation model for precise pixel-level image classification. This technology finds practical applications in diverse fields such as autonomous driving, medical imaging, and augmented reality, enabling more accurate understanding resulting in improved decision-making and visual perception.
+
 The dataset contains high-quality, pixel-level annotations for 30 classes, including road, sidewalk, building, vegetation, person, car, etc.
 
 Practical Usage:
