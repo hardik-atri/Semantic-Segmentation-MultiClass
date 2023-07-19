@@ -11,10 +11,14 @@ This project focuses on semantic segmentation using a U-net model with the ResNe
 ## Preprocessing
 1. Load the images and masks from the dataset.
 2. Store the paths of the images and masks in a data frame.
-3. Perform preprocessing on the images and masks.
+3. Perform preprocessing ( resize to 256 * 256 ) on the images and masks.
+4. Find all the unique classes in the masked image ( different int values ) and replace them with continues series starting from 0.
 
 ## Data Normalization
 - Normalize the input images to ensure consistent and standardized input for the model.
+
+## Encoding the masks
+- Encode the masks to one-hot encoding with respected class found in preprocessing step.
 
 ## Model Building
 - Utilize the U-net model architecture with ResNet34 as the backbone.
